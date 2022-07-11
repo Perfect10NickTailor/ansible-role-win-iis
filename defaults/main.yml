@@ -1,0 +1,20 @@
+---
+
+iis_app_pool_name: 'DefaultAppPool'
+iis_app_pool_attributes: ''
+
+iis_bindings: []
+  #- host_header: ''
+  #  ip: ''
+  #  port: ''
+  #  protocol: 'http'
+  #  state: 'present'
+  #  certificate_store_name: 'My'
+  #  certificate_hash: ''
+
+iis_acl_user: 'IIS_IUSRS'
+iis_acl_rights: FullControl
+iis_acl_type: allow
+iis_acl_state: present
+iis_acl_inherit: 'ContainerInherit, ObjectInherit'
+iis_acl_propagation: 'None'

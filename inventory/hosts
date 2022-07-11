@@ -1,0 +1,10 @@
+[windows]
+test.server.com
+
+[all:vars]
+ansible_user={{ user }}
+ansible_password={{ password ]}}
+ansible_connection=winrm
+ansible_winrm_transport=basic
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5986
