@@ -3,7 +3,7 @@
 galaxy_info:
   author: Nick Tailor
   description: This will role will deploy multiple sites in IIS 
-  company: "Nick Tailor Consulting Ltd"
+  company: "Nick Tailor Consulting Ltd."
   license: BSD
   min_ansible_version: 2.3
   platforms:
