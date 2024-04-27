@@ -1,4 +1,6 @@
 # ansible-role-win-iis
+Note: I have made a new role that bypasses the module in ansible and some custom code where if you have a complex IIS infr and hundreds of sites. This code below will simply not work as its just too resource intensive when trying to deploy using ansible windows modules.
+Its not publically available but it can copy an exsiting servers config and restore to another machine in minutes. (500-1000) sites. Pool, permissions, paths etc. 
 Win-IIS - http://www.nicktailor.com/?p=1486
 =======
 
